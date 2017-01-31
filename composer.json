@@ -1,0 +1,30 @@
+{
+  "name": "alebaweb/banner-service",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Eremin Ilya",
+      "email": "i.eremin.yand@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "2.0.*",
+    "yiisoft/yii2-redis": "2.0.*"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-gii": "*"
+  },
+  "autoload": {
+    "psr-4": {"BannerService\\": "src/" }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
